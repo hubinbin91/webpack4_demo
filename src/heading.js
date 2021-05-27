@@ -4,5 +4,6 @@ export default () => {
   elem.addEventListener('click', () => {
     alert('Hello Webpack');
   });
+  console.log('1');
   return elem;
 }
